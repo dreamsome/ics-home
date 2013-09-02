@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>2013 Fall - ICS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ACSA Homepage">
+    <meta name="author" content="Cheng Yichao">
+  
+ <!-- Le styles -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../assets/css/docs.css" rel="stylesheet">
+    <style>
+
+      body {
+      padding-top: 40px;
+      }
+
+      .centering {
+      text-align: center;
+      }
+
+      .subhead {
+      
+      text-align: left;
+      border-bottom: 1px solid #DDD;
+      }
+      
+
+      
+      .subhead h1 {
+      font-size: 50px;
+//      width: 700px;
+      line-height: 1;
+      }
+
+      .subhead p {
+      font-size: 24px;
+      line-height: 1.25;
+      text-align: center;
+      }
+
+      .jumbotron {
+      position: relative;
+      padding: 40px 0;
+      color: white;
+//      text-align: center;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
+      background: #020031;
+      background: -moz-linear-gradient(45deg, #020031 0%, #6D3353 100%);
+      background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#020031), color-stop(100%,#6D3353));
+      background: -webkit-linear-gradient(45deg, #020031 0%,#6D3353 100%);
+      background: -o-linear-gradient(45deg, #020031 0%,#6D3353 100%);
+      background: -ms-linear-gradient(45deg, #020031 0%,#6D3353 100%);
+      background: linear-gradient(45deg, #020031 0%,#6D3353 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 );
+      -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
+      -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+      box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
+      }
+      
+    </style>
+    <link href="/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/assets/ico/favicon.png">
+
+
+  </head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          
+          <a class="brand" href="/">ICS</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/schedule.html">Schedule</a></li>
+              <li><a href="/homeworks.html">HWs</a></li>
+              <li><a href="/labs.html">Labs</a></li>
+              <li><a href="/exams.html">Exams</a></li>
+              <li><a href="/download.html">Download</a></li>
+              <li><a href="/faq.html">FAQ</a></li>
+
+
+            </ul>
+          </div><!--/.nav-collapse -->
+          <p class="navbar-text pull-right">University of Science and Technology of China</p>
+        </div>
+      </div>
+    </div>
+
+    <header class="jumbotron subhead">
+      <div class="container">      
+
+        <h1>Welcome to Introduction to Computing Systems</h1>
+        <p></p>
+        <p>Fall 2013</p>
+      </div> <!-- /container -->
+    </header>
+
+    <div class="container">
+       <div class="row">
+
+  <div class="span3 bs-docs-sidebar">
+    <ul class="nav nav-list bs-docs-sidenav">
+      <li><a href="#course-information"><i class="icon-chevron-right"></i> Course Information</a></li>
+      <li><a href="#staff-information"><i class="icon-chevron-right"></i> Staff Information</a></li>
+
+
+    </ul>
+  </div>
+
+  <div class="span9">
+
+    <section id="course-information">
+      <div class="page-header">
+        <h2 >Course Information</h2>
+      </div>
+
+      <h3>Description</h3>
+      <p>
+        This is the 101 course in computing for students of computer science and engineering. The objective is to provide a strong foundation that students can build on in later courses. The idea is that a more complete understanding of the fundamentals early in your education will help you acquire <strong>a deeper understanding</strong> of more advanced topics later, such as: </p>
+      <ul>
+        <li>Computer architecture</li>
+        <li>Operating systems</li>
+        <li>Database</li>
+        <li>Networks</li>
+        <li>Algorithm design</li>
+        <li>Software engineering</li>
+      </ul>
+      <p>
+        This approach is advocated by <a href="http://users.ece.utexas.edu/~patt/">Yale N. Patt</a>, which he calls the "motivated" bottom-up. That is, after providing some overview of why a new concept is important, we attempt to tie that new concept to what you already understand. Starting with the transistor as a switch, we build logic gates, then more complex logic structures, then gated latches, culminating in an implementation of memory. From there, we study the computer's instruction cycle, and then a particular computer, the <a href="">LC-3</a> (for Little Computer 3). We got it wrong the first couple of times! 
+      </p>
+
+      <h3>What is LC-3?</h3>
+
+      <p>The LC-3 is a computer simulator  which captures the important structures of a modern computer, while keeping it simple enough to allow full understanding. The first programming assignment is in the machine language of the LC-3. From there, we move up to Assembly Language, and learn how an assembler works. The remaining programming assignments are in LC-3 Assembly Language. We cover good programming style and practice, and teach debugging from the gitgo. An LC-3 Simulator allows the student to debug his/her own programs. Input (via the keyboard) and output (via the monitor) both use physical device registers. System service routines, written in LC-3 Assembly Language are used to perform I/O functions. They are invoked by user programs by the TRAP instruction and corresponding trap vector. Subroutine calls and returns complete the LC-3 instruction set.
+      </p>
+
+      <h3>Meeting Time</h3>
+
+      <p>The course consists of three hours of lecture + a one hour discussion section each week. </p>
+
+      <ul> 
+        <li><b>Lecture</b>: Teaching Building 3A310</li>
+        <ul>
+          <li>Mon. 14: 50 - 16: 25</li>
+          <li>Thur. 7: 50 - 9: 25</li>
+        </ul> 
+
+        <li>
+          <b>Discussion</b>: Teaching Building 3A310(hosted by TA)</li>
+
+        <ul>
+          <li>Mon. 13:30 - 14: 40</li>
+        </ul>
+        
+      </ul>
+
+
+      
+      <h3>Textbooks</h3>
+
+
+      <p><i>Introduction to Computing Systems</i>: from bits and gates to C and beyond; Yale N. Patt and Sanjay J. Patel; Mc-Graw Hill, 2004, 2nd edition </p>
+
+      <p style="text-align:center;margin:20px;">
+        <img width="200px" src="http://ww2.sinaimg.cn/mw690/534218ffgw1e861tvf1goj20930b974g.jpg" /><br><br>
+        <a href="http://book.douban.com/subject/1912519/">Douban</a><br>
+        <a href="http://www.amazon.cn/mn/detailApp/ref=asc_df_B0011BVLB4720580/?asin=B0011BVLB4&tag=douban-23&creative=2384&creativeASIN=B0011BVLB4&linkCode=asn">Amazon.cn</a>
+      </p>
+
+      <p>Class <b>handouts</b> will be supplied when necessary to supplement the concepts discussed in lecture. </p>
+
+
+
+      <h3>HW Policy</h3>
+
+      <p>Problem sets will be assigned periodically. Students are encouraged to form study groups to work homework problems. Only one copy of a problem set per group need be handed in. There will be <b>six</b> programming assignments, one in machine language, three in assembly language, two in C. </p>
+
+      <p>All homeworks and reports will be sent to <a href="mailto:ustc.ics.2013@gmail.com"><i class="icon-envelope"></i> ustc.ics.2013@gmail.com</a>.</p>
+
+    </section>
+
+    <section  id="staff-information">
+    <div class="page-header">
+      <h2>Staff Information</h2>
+    </div>
+
+
+
+    <table class="table table-bordered">
+	  <tbody>
+        <tr>
+		  <th> </th>
+          <th> Name </th>
+          <th> E-mail </th>
+          <th> Office </th>
+          <th> Phone </th>
+          <th> Office Hours </th>
+	    </tr>
+	    <tr>
+		  <td> <strong>Instructor</strong> </td>
+          <td> An Hong</td>
+          <td> <a href="mailto:han@ustc.edu.cn"><i class="icon-envelope"></i> han@ustc.edu.cn</a> </td>
+          <td> Room 1401, Sci. & Lab Building(west)</td>
+          <td> </td>
+          <td> </td>
+	    </tr>
+
+	    <tr>
+		  <td> <strong>Grad TA</strong> </td>
+          <td> Cheng Yichao</td>
+          <td> <a href="mailto:yichao@mail.ustc.edu.cn"><i class="icon-envelope"></i> yichao@mail.ustc.edu.cn</a> </td>
+          <td> Room 1406, Sci. & Lab Building(west)</td>
+          <td> </td>
+          <td> </td>
+	    </tr>
+
+	    <tr>
+		  <td> <strong>Grad TA</strong> </td>
+          <td> Peng Yi </td>
+          <td> <a href="mailto:peng1990@mail.ustc.edu.cn"><i class="icon-envelope"></i> peng1990@mail.ustc.edu.cn</a> </td>
+          <td> Room 1406, Sci. & Lab Building(west) </td>
+          <td> </td>
+          <td> </td>
+	    </tr>
+
+    </tbody></table>
+
+
+    <h3>Building Location</h3>
+    
+    <p>Sci. & Lab Building(west): <a href="http://ditu.google.cn/maps?q=31.841132,117.258614"><i class="icon-map-marker"></i> Google Map</a>
+    </p>
+
+
+    </section>
+
+
+
+
+
+    
+
+  </div>
+</div>
+
+
+
+
+    </div> <!-- /container -->
+
+
+    
+    <footer class="footer">
+      <div class="container">
+        
+        <p>2013 - 2014, <a href="http://acsa.ustc.edu.cn">ACSA</a> Research Lab. This site is built with <a href="getbootstrap.com/2.3.2/">twitter bootstrap</a>.</p>
+        <p>All Rights Reserved.</p>
+
+      </div>
+    </footer>
+
+    <script src="/assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
+    <script src="assets/js/application.js"></script>
+
+
+
+  </body>
+
+
+
+</html>

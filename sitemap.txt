@@ -1,0 +1,9 @@
+
+http://ics.acsalab.org/homeworks.html
+http://ics.acsalab.org/index.html
+http://ics.acsalab.org/sitemap.txt
+http://ics.acsalab.org/schedule.html
+http://ics.acsalab.org/labs.html
+http://ics.acsalab.org/download.html
+http://ics.acsalab.org/exams.html
+http://ics.acsalab.org/faq.html
